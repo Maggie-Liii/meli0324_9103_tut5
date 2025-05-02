@@ -28,6 +28,7 @@ function setup() {
   imgDrwPrps.aspect = img.width / img.height;
   //and the aspect ratio of the canvas
   canvasAspectRatio = width / height;
+
   calculateImageDrawProps();
   //We can use the width and height of the image to calculate the size of each segment
   let segmentWidth = img.width / numSegments;
@@ -66,6 +67,11 @@ function keyPressed() {
     //it will always make it the opposite of what it was
     drawSegments = !drawSegments;
   }
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
+  calculateImageDrawProps();
 }
 
 function calculateImageDrawProps() {
