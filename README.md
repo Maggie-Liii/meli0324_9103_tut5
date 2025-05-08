@@ -1,22 +1,22 @@
-# meli0324_9103_tut5
-My first repository for IDEA9103
+# Quiz 8
 
-This is my first local change to the repo!
+**Part 1**: Imaging Technique
+1. Inspiration Source: Iron Flower 
+2. Discussion:  
+- The visual effect of the Iron Flower draws inspiration from the traditional blacksmithing process, where molten metal is struck forcefully, causing sparks and molten fragments to scatter into the air. This dynamic visual of flying sparks and their trajectories inspired my interest in particle systems and light effects. I aim to incorporate this sense of intense heat and fluid motion into my design, using graphic and animation techniques to represent similar visual phenomena.
 
-## Project Description
-Some project description
+- [Source of inspiration1](file:///Users/pc/Desktop/IDEA%209103%20Creative%20Coding/final/1.jpg)
+- [Source of inspiration2](file:///Users/pc/Desktop/IDEA%209103%20Creative%20Coding/final/2.jpg)
 
-[Link Text](https://www.google.com)
 
-- Item 1
-- Item 2
-  - Subitem 2.1
-  - Subitem 2.2
+**Part 2**:Coding Technique Exploration
 
-1. First Item
-2. Second Item
-3. Third Item
 
-[An image of a cat](https://placekitten.com/200/300)
+1. Coding Technique：p5.js + WebGL Shader 
+2. Discussion：  
+By using p5.js and WebGL shaders, we can create a smooth and interactive particle trail effect. This technique is perfect for showing the flying sparks and glowing trails of the "Iron Flower" performance. The shader makes the particles look more colorful and realistic by adding light, gradients, and blending effects. It helps the whole animation look more vivid and eye-catching, and lets users interact with the effect using their mouse.
 
-2111111
+- [Screenshot of the Example Code](file:///Users/pc/Desktop/IDEA%209103%20Creative%20Coding/final/Screenshot%20of%20the%20Example%20Code.png)
+ 
+- [p5.js Shader Particle System Demo Code](https://openprocessing.org/sketch/835887)
+
